@@ -2,7 +2,6 @@
  *  1) Insert operation, delete operation and random access by index of array.
  *  2) The type of element is Integer.
  * 
- *  Author: Mark C. Mu
  */
 
 public class Array {

@@ -1,7 +1,7 @@
 /**
  *  The find, insert, delete operation of single linked list.
  *  The data of every node of the list is Integer.
- *  Author: Mark C. Mu
+ *  
  */
 
 public class SingleLinkedList {
