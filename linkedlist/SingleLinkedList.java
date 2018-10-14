@@ -124,7 +124,7 @@ public class SingleLinkedList {
     public void printAll() {
         Node p = head;
         while(p != null) {
-            System.out.println(p.data + " ");
+            System.out.print(p.data + " ");
             p = p.next;
         }
         System.out.println();

@@ -52,7 +52,7 @@ public class Array {
 
     public void printAll() {
         for (int i = 0; i < this.count; i++) 
-            System.out.println(this.array[i] + " ");
+            System.out.print(this.array[i] + " ");
         System.out.println();
     }
 
