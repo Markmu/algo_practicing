@@ -43,6 +43,23 @@ public class Sort1 {
 
     }
 
+    public static void selectionSort(int[] arr, int n) {
+
+        if (n <= 1) return;
+
+        for (int i = 0; i < n; ++i) {
+
+            int min = i;
+            for (int j = i; j < n; ++j) {
+                if (arr[j] < arr[min])
+                    min = j;
+            }
+            swap(arr, i, min);
+
+        }
+
+    }
+
     public static void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
         arr[i] = arr[j];
@@ -52,7 +69,8 @@ public class Sort1 {
     public static void main(String[] args) {
         int[] array = {10, 2, 99, 8, 3, 3, 0, 13, 33, 43, 22};
         // bubbleSort(array, array.length);
-        insertionSort(array, array.length);
+        // insertionSort(array, array.length);
+        selectionSort(array, array.length);
         for (int var : array) {
             System.out.print(var + " ");
         }
