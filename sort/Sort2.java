@@ -46,9 +46,42 @@ public class Sort2 {
 
     }
 
+    public static void quick_sort(int[] array, int n) {
+        quickSort(array, 0, n-1);
+    }
+
+    public static void quickSort(int[] array, int left_i, int right_i) {
+        if (left_i >= right_i) return;
+
+        int p = partition(array, left_i, right_i);
+        quickSort(array, left_i, p-1);
+        quickSort(array, p+1, right_i);
+
+    }
+
+    public static int partition(int[] array, int left, int right) {
+        int pivot = array[right];
+        int i = left;
+        for(int j = left; j < right; ++j) {
+            if (array[j] < pivot) {
+                swap(array, i, j);
+                i++;
+            }
+        }
+        swap(array, i, right);
+        return i;
+    }
+
+    public static void swap(int[] array, int a, int b) {
+        int tmp = array[a];
+        array[a] = array[b];
+        array[b] = tmp;
+    }
+
     public static void main(String[] args) {
         int[] array = {9,12,34,0,39,88,47,399,287,44,22,12,1,23,12,22,2};
-        merge_sort(array, array.length);
+        // merge_sort(array, array.length);
+        quick_sort(array, array.length);
         for(int var: array) {
             System.out.print(var + " ");
         }
