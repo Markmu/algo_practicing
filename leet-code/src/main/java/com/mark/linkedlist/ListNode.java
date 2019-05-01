@@ -1,4 +1,4 @@
-package com.mark.leetcode.linkedlist.No_2_AddTwoNumber;
+package com.mark.linkedlist;
 
 /**
  * Created by Mark on 2019-04-28.

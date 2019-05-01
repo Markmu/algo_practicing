@@ -1,10 +1,10 @@
-package com.mark.leetcode.linkedlist.No_19_RemoveNthNodeFromEndOfTheList;
+package com.mark.linkedlist.No_19_RemoveNthNodeFromEndOfTheList;
 
 /**
  * Created by Mark on 2019-04-28.
  */
 
-import com.mark.leetcode.linkedlist.ListNode;
+import com.mark.linkedlist.ListNode;
 
 /**
  * Definition for singly-linked list.

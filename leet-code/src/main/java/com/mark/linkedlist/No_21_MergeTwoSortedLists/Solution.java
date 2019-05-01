@@ -1,6 +1,6 @@
-package com.mark.leetcode.linkedlist.No_21_MergeTwoSortedLists;
+package com.mark.linkedlist.No_21_MergeTwoSortedLists;
 
-import com.mark.leetcode.linkedlist.ListNode;
+import com.mark.linkedlist.ListNode;
 
 /**
  * Created by Mark on 2019-04-28.

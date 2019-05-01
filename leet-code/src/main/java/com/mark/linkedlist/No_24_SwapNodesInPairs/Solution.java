@@ -1,6 +1,6 @@
-package com.mark.leetcode.linkedlist.No_24_SwapNodesInPairs;
+package com.mark.linkedlist.No_24_SwapNodesInPairs;
 
-import com.mark.leetcode.linkedlist.ListNode;
+import com.mark.linkedlist.ListNode;
 
 /**
  * Created by Mark on 2019-04-28.

@@ -1,4 +1,6 @@
-package com.mark.leetcode.linkedlist.No_2_AddTwoNumber;
+package com.mark.linkedlist.No_2_AddTwoNumber;
+
+import com.mark.linkedlist.ListNode;
 
 /**
  * Created by Mark on 2019-04-26.
