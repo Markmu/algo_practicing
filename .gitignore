@@ -24,6 +24,9 @@ hs_err_pid*
 
 # VS Code file
 .vscode*
+.classpath
+.project
+.settings
 
 # IDEA file
 .idea/
