@@ -1,4 +1,4 @@
-package com.mark.dp.No_70_ClimbingStairs;
+package com.mark.No_70_ClimbingStairs;
 
 import java.util.HashMap;
 
